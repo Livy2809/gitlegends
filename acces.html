@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accès TP Git · SRCRJ</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1c1b29; margin: 0; padding: 24px 16px; background: #f4f3fa; }
+  header { max-width: 860px; margin: 0 auto 24px; }
+  h1 { margin: 0 0 4px; }
+  .avert { padding: 10px 14px; border-left: 4px solid #d1435b; background: #fff; }
+  .fiche { max-width: 860px; margin: 0 auto 24px; padding: 20px 24px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  .fiche h2 { margin: 0 0 6px; font-size: 1.6rem; }
+  .fiche h3 { margin: 18px 0 6px; font-size: 1rem; }
+  .fiche h3 small { font-weight: normal; color: #6b6880; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid #e6e4f0; }
+  th { width: 160px; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .9rem; }
+  code { font-family: ui-monospace, Menlo, Consolas, monospace; }
+  .secret { display: block; word-break: break-all; font-size: .8rem; padding: 6px; background: #f4f3fa; border-radius: 6px; }
+  button { margin-top: 6px; padding: 4px 12px; border: 1px solid #b9b5d6; border-radius: 6px; background: #fff; cursor: pointer; }
+  .note { color: #6b6880; font-size: .85rem; margin-bottom: 0; }
+  @media print { body { background: #fff; padding: 0; } header .avert, button { display: none; } .fiche { box-shadow: none; page-break-after: always; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>TP Git · accès de la classe SRCRJ</h1>
+  <p>Portail de la classe : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/">https://stesgitpgitsrcrj.z28.web.core.windows.net/</a> · Accès valables jusqu'au 2027-06-30.</p>
+</header>
+
+  <section class="fiche">
+    <h2>SRCRJ · G1</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G1/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G1/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G1</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=fwRxh3ewj6T%2BiVbYPnm91vIXPxJlAtFE8B8CD2zGuNw%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G1. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G2</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G2/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G2/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G2</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=TfVRx0RGlIRp3VXcaz4bju7Yu0SdqW%2FZSi1QijoulPU%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G2. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G3</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G3/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G3/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G3</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=ZTXWH%2Bi%2BPMBhnZhBzNM8IpuF7oqs%2BRP60%2BioTVGPdlA%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G3. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G4</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G4/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G4/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G4</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=zL%2FUwGKTvNGEPCHnh60lupU0ADBU28v8Jl5jZZ368ps%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G4. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G5</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G5/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G5/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G5</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=Igq4evEN1gOWrO24aS39vZHKxyEEkHjHDlG73KwMiZ8%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G5. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G6</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G6/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G6/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G6</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=N9ccBjECiq%2BVKFI3SnJv3GpJ9o8jmrZdLvqaiKmqJTQ%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G6. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G7</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G7/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G7/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G7</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=nw0hBNbOV9HD8M1ertNV1FtYZC6udK49PQv7beJPG4g%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G7. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G8</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G8/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G8/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G8</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=v1YxyxMMgWbsOhEr7wZ%2F%2BOHcWdaYwLYJDXwscKIociI%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G8. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G9</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G9/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G9/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G9</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=%2BWtz%2FO%2FcGwdiXHNc3RQHy8fIz7p4FVgy%2BZPVjSLldrQ%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G9. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G10</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G10/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G10/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G10</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=r%2B4eeSHdjvsX4RH5y3QB%2FX1E7xPVhVqv2%2FO3lbdnPpM%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G10. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G11</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G11/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G11/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G11</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=gwsccfQx46UNmTOxoT7m9KfWhqNt6HnRTcYqG7DB2t0%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G11. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G12</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G12/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G12/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G12</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=ue216h1L1YuepBNT%2FedZMwRd243%2BCKI%2FUw7%2BP884NCo%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G12. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G13</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G13/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G13/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G13</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=H6vkguCneCvEyLTYIsZNYehOMleASkwGUYT549QO6Tk%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G13. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G14</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G14/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G14/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G14</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=VV2PgOJQFNPNXfmLj3qWKu%2FngqdRHbGDhY%2BIfX9CrCQ%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G14. Ne le publiez jamais dans le code.</p>
+  </section>
+  <section class="fiche">
+    <h2>SRCRJ · G15</h2>
+    <p class="url">Votre site : <a href="https://stesgitpgitsrcrj.z28.web.core.windows.net/G15/">https://stesgitpgitsrcrj.z28.web.core.windows.net/G15/</a></p>
+    <h3>Variables du dépôt <small>(Settings › Secrets and variables › Actions › Variables)</small></h3>
+    <table>
+      <tr><th>CLASS_NAME</th><td><code>SRCRJ</code></td></tr>
+      <tr><th>GROUP_NAME</th><td><code>G15</code></td></tr>
+      <tr><th>TEAM_MEMBERS</th><td>Prénom Nom, Prénom Nom, … <em>(à compléter par l'équipe)</em></td></tr>
+    </table>
+    <h3>Secret du dépôt <small>(onglet Secrets › New repository secret)</small></h3>
+    <table>
+      <tr><th>Nom</th><td><code>AZURE_STORAGE_SAS_TOKEN</code></td></tr>
+      <tr><th>Valeur</th><td><code class="secret">se=2027-06-30T23%3A59Z&amp;sp=rcwl&amp;spr=https&amp;sv=2026-04-06&amp;sr=d&amp;sdd=1&amp;sig=KAA8CvS0mdcFcQaJvsD4yNy2qPV2hKtFMoBhgdYAteI%3D</code>
+        <button type="button" onclick="copier(this)">Copier</button></td></tr>
+    </table>
+    <p class="note">Accès valable jusqu'au 2027-06-30, uniquement pour le dossier G15. Ne le publiez jamais dans le code.</p>
+  </section>
+<script>
+  function copier(bouton) {
+    var texte = bouton.previousElementSibling.textContent;
+    navigator.clipboard.writeText(texte).then(function () {
+      bouton.textContent = "Copié !";
+      setTimeout(function () { bouton.textContent = "Copier"; }, 1500);
+    });
+  }
+</script>
+</body>
+</html>
